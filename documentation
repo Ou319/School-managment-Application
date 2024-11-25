@@ -1,0 +1,42 @@
+***********************School Management App Documentation***********************
+1. Introduction
+This documentation outlines the development and functionality of the School Management app built
+using Flutter and Dart.
+The purpose of the app is to help students and administrators manage school-related activities. The
+app provides several features including viewing posts from an admin dashboard, displaying an
+agenda, and interacting with a chatbot.
+For the database, Supabase is used to manage the app's data. The app is still in development, and
+future updates will continue to improve and expand its functionality.
+2. App Flow and Pages
+The app consists of four main pages:
+1. **First Page (Splash Page)**: This page contains an image, text, and a 'Get Started' button. When
+the button is clicked, it navigates to the home page.
+2. **Home Page**: This page displays posts fetched from an admin's dashboard built with Flask.
+The posts are dynamically displayed to the user.
+3. **Agenda Page**: This page uses WebView to display the emploi (schedule) in an easy-to-read
+format.
+4. **Report Page**: This page contains a chatbot integrated with Tawk.to. The chatbot has been
+trained to provide answers to user queries, especially related to the school environment.
+3. Technical Details
+Technologies used in the development of this app:
+1. **Flutter and Dart**: The app is developed using the Flutter framework with Dart as the
+programming language.
+2. **Supabase**: Supabase is used as the database solution to handle data storage and
+management.
+3. **WebView**: The Agenda Page uses WebView to display the school's emploi directly from the
+web.
+4. **Tawk.to**: The chatbot integrated on the Report Page uses Tawk.to for handling queries and
+providing answers based on trained data.
+The app is still under development, and more features will be added in the future to improve its
+functionality.
+4. Future Developments
+The app is still in the development phase. Future updates will include:
+- Additional pages and features to improve user experience.
+- Further refinement of the chatbot to answer more diverse questions.
+- Optimization of the WebView content and post fetching mechanism.
+- Integration of more tools for school management.
+5. Conclusion
+This documentation has provided an overview of the School Management app, built using Flutter,
+Dart, and Supabase. The app offers features like viewing posts, accessing the agenda, and
+interacting with a chatbot. The app is still in development, and further enhancements will be added
+in the future.
